@@ -102,8 +102,8 @@ retrieving, updating, and deleting contact information.
   
   Then, run:
   
-    - **docker build -t mataneden/phone_book_api .**                    
-    - **docker container run -d -p 5000:5000  mataneden/phone_book_api**
+    docker build -t mataneden/phone_book_api .                    
+    docker container run -d -p 5000:5000  mataneden/phone_book_api
 
 
 ### Comments
