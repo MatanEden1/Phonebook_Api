@@ -58,16 +58,23 @@ https://hub.docker.com/repository/docker/mataneden/phone_book_api/general
 **Clone the repository**:
 
 1. git clone https://github.com/yourusername/phonebook-api.git
+   
 ```bash
 cd phonebook-api
+```
 
 2. Set up the virtual environment and install dependencies:
+
+```bash  
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
+```
 
 3. Run the application:
+```bash 
 flask --app run_app run --host=0.0.0.0
+```
 
 ## Technologies
 
