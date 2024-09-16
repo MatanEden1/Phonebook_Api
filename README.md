@@ -97,15 +97,6 @@ retrieving, updating, and deleting contact information.
 - **Response**: JSON object with a confirmation message
 - **Example**: (DELETE REQUEST) http://localhost:5000/contacts/phone/054
 
-### Docker Setup
-  To run the application using Docker, ensure Docker and Docker Compose are installed.
-  
-  Then, run:
-  
-    docker build -t mataneden/phone_book_api .                    
-    docker container run -d -p 5000:5000  mataneden/phone_book_api
-
-
 ### Comments
 For scaleable API:
 - Async API (fastAPI framework)
