@@ -2,19 +2,37 @@
 
 A simple phonebook API built with Python, Flask, and Sqlite.
 
-### Comments
-For scaleable API:
+This API allows users to manage their contacts with operations such as:
 
-- Async API (fastAPI framework)
+- Get contacts
 
-- Stable DB (not sqlite)
+- Search contact
 
-- For Cache better to use Redis (with LFU)
+- Add contact
 
-- Load balancer
+- Edit contact
 
-- Kubernetes
+- Delete contact
 
+### Scalable Recommendations
+
+- Using an async framework like FastAPI
+
+- Replacing SQLite with a more robust database like PostgreSQL or MySQL
+
+- Adding Redis for caching with LFU eviction policy
+
+- Implementing a load balancer
+
+- Using Kubernetes for container orchestration
+
+### Docker Image
+Pull the pre-built Docker image using:
+
+```bash
+docker pull mataneden/phone_book_api:latest
+```
+View on Docker Hub: Phonebook API Docker
 
 ## Features
 - Create: Add new contacts to the phonebook.
@@ -41,17 +59,10 @@ Containerization: Docker
 
 Testing: Pytest
 
-### Docker Image
-docker pull mataneden/phone_book_api:latest
-
-https://hub.docker.com/repository/docker/mataneden/phone_book_api/general
-
 ### Getting Started
 **Prerequisites**
 - Python 3.12.5
-
-- SQLite3
-
+  
 - Docker and Docker Compose
 
 ## Installation
