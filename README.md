@@ -98,6 +98,8 @@ retrieving, updating, and deleting contact information.
 - **Example**: (DELETE REQUEST) http://localhost:5000/contacts/phone/054
 
 ### Docker Image
+docker pull mataneden/phone_book_api:latest
+
 https://hub.docker.com/repository/docker/mataneden/phone_book_api/general
 
 ### Comments
