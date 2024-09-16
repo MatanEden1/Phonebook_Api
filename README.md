@@ -14,6 +14,12 @@ For scaleable API:
 - load balancer
 - k8
 
+### Docker Image
+docker pull mataneden/phone_book_api:latest
+
+https://hub.docker.com/repository/docker/mataneden/phone_book_api/general
+
+
 ## Features
 
 - **Create**: Add new contacts to the phonebook.
@@ -104,10 +110,5 @@ For scaleable API:
 - **URL**: `/contacts/phone/<phone_number>`
 - **Response**: JSON object with a confirmation message
 - **Example**: (DELETE REQUEST) http://localhost:5000/contacts/phone/054
-
-### Docker Image
-docker pull mataneden/phone_book_api:latest
-
-https://hub.docker.com/repository/docker/mataneden/phone_book_api/general
 
 
