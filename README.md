@@ -100,12 +100,12 @@ retrieving, updating, and deleting contact information.
 ### Docker Setup
   To run the application using Docker, ensure Docker and Docker Compose are installed.
   Then, run:
- ```bash   
-   docker build -t mataneden/phone_book_api .                    
-   docker container run -d -p 5000:5000  mataneden/phone_book_api
+         ```bash
+    docker build -t mataneden/phone_book_api .                    
+    docker container run -d -p 5000:5000  mataneden/phone_book_api
+
 
 ### Comments
-
 For scaleable API:
 - Async API (fastAPI framework)
 - For Cache better to use Redis (with LFU)
