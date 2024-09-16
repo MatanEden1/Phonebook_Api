@@ -101,7 +101,9 @@ retrieving, updating, and deleting contact information.
   To run the application using Docker, ensure Docker and Docker Compose are installed.
   Then, run:
 
-    docker-compose up --build
+docker build -t mataneden/phone_book_api .                    
+docker container run -d -p 5000:5000  mataneden/phone_book_api
+
 
   This will start the Flask application and PostgreSQL database in separate containers.
 
