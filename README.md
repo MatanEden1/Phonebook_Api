@@ -6,6 +6,14 @@ This API allows users to manage their contacts with operations such as creating,
 
 retrieving, updating, and deleting contact information.
 
+### Comments
+For scaleable API:
+- Async API (fastAPI framework)
+- stable DB (not sqlite)
+- For Cache better to use Redis (with LFU)
+- load balancer
+- k8
+
 ## Features
 
 - **Create**: Add new contacts to the phonebook.
@@ -102,10 +110,4 @@ docker pull mataneden/phone_book_api:latest
 
 https://hub.docker.com/repository/docker/mataneden/phone_book_api/general
 
-### Comments
-For scaleable API:
-- Async API (fastAPI framework)
-- stable DB (not sqlite)
-- For Cache better to use Redis (with LFU)
-- load balancer
-- k8
+
