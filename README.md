@@ -46,16 +46,7 @@ retrieving, updating, and deleting contact information.
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
 
-
-3. **Create the .env file in the root directory with the following content**
-      ```bash 
-   DB_USER="Your Username"
-   DB_PASSWORD= "Your Password"
-   DB_HOST=localhost
-   DB_PORT=5432
-   DB_NAME=phonebook_db
-
-4. **Run the application**
+3. **Run the application**
       ```bash 
    flask --app run_app run --host=0.0.0.0
 
