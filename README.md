@@ -100,9 +100,8 @@ retrieving, updating, and deleting contact information.
 ### Docker Setup
   To run the application using Docker, ensure Docker and Docker Compose are installed.
   Then, run:
-         ```bash
-    docker build -t mataneden/phone_book_api .                    
-    docker container run -d -p 5000:5000  mataneden/phone_book_api
+    1. **docker build -t mataneden/phone_book_api .**                    
+    2. **docker container run -d -p 5000:5000  mataneden/phone_book_api**
 
 
 ### Comments
