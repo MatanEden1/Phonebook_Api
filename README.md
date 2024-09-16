@@ -2,25 +2,44 @@
 
 A simple phonebook API built with Python, Flask, and Sqlite.
 
-This API allows users to manage their contacts with operations such as:
-
-■	Get contacts 
-
-■	Search contact
-
-■	Add contact
-
-■	Edit contact
-
-■	Delete contact
-
 ### Comments
 For scaleable API:
+
 - Async API (fastAPI framework)
+
 - Stable DB (not sqlite)
+
 - For Cache better to use Redis (with LFU)
+
 - Load balancer
-- kubernetes
+
+- Kubernetes
+
+
+## Features
+- Create: Add new contacts to the phonebook.
+  
+- Get Contacts: Get a list of contacts with pagination and search functionality.
+ 
+- Search: Search for a specific contact by first name or last name.
+  
+- Update: Edit existing contacts by phone number (unique).
+  
+- Delete: Remove contacts from the phonebook by phone number (unique).
+
+## Technologies
+
+Backend: Flask
+
+Database: SQLite3
+
+ORM: SQLAlchemy
+
+Data Validation: Pydantic
+
+Containerization: Docker
+
+Testing: Pytest
 
 ### Docker Image
 docker pull mataneden/phone_book_api:latest
