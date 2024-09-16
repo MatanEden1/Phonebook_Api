@@ -3,10 +3,15 @@
 A simple phonebook API built with Python, Flask, and Sqlite.
 
 This API allows users to manage their contacts with operations such as:
+
 ■	Get contacts 
+
 ■	Search contact
+
 ■	Add contact
+
 ■	Edit contact
+
 ■	Delete contact
 
 ### Comments
