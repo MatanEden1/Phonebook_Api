@@ -112,16 +112,19 @@ flask --app run_app run --host=0.0.0.0
    ```bash
    git clone https://github.com/yourusername/phonebook-api.git
    cd phonebook-api
+   ```
 
 2. **Set up the virtual environment and install dependencies**
-      ```bash
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
+   ```
 
 3. **Run the application**
-      ```bash 
+   ```bash 
    flask --app run_app run --host=0.0.0.0
+   ```
 
 ## API Endpoints
 
@@ -148,12 +151,14 @@ flask --app run_app run --host=0.0.0.0
 - **URL**: `/contacts`
 - **Body**: JSON object with contact details
 - **Response**: JSON object with the added contact
-- **Body Example**: [
-    {
+- **Body Example**:
+  ```bash
+    [{
         "first_name": "matan",
         "last_name": "matan",
         "phone_number": 123,
         "address": "123"}]
+  ```
 
 ### Update Contact
 
