@@ -32,7 +32,7 @@ Pull the pre-built Docker image using:
 ```bash
 docker pull mataneden/phone_book_api:latest
 ```
-View on Docker Hub: Phonebook API Docker
+View on Docker Hub: mataneden/phone_book_api
 
 ## Features
 - Create: Add new contacts to the phonebook.
