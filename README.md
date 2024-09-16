@@ -103,6 +103,7 @@ https://hub.docker.com/repository/docker/mataneden/phone_book_api/general
 ### Comments
 For scaleable API:
 - Async API (fastAPI framework)
+- stable DB (not sqlite)
 - For Cache better to use Redis (with LFU)
 - load balancer
 - k8
