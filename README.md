@@ -57,18 +57,19 @@ https://hub.docker.com/repository/docker/mataneden/phone_book_api/general
 ## Installation
 **Clone the repository**:
 
-bash
-Copy code
-git clone https://github.com/yourusername/phonebook-api.git
+1. git clone https://github.com/yourusername/phonebook-api.git
+ 
+```bash
 cd phonebook-api
-Set up the virtual environment and install dependencies:
 
-bash
-Copy code
+2. Set up the virtual environment and install dependencies:
+
+   ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
-Run the application:
+
+3. Run the application:
 
 bash
 Copy code
