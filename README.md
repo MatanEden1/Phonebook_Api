@@ -46,14 +46,33 @@ docker pull mataneden/phone_book_api:latest
 
 https://hub.docker.com/repository/docker/mataneden/phone_book_api/general
 
+### Getting Started
+**Prerequisites**
+- Python 3.12.5
 
-## Features
+- SQLite3
 
-- **Create**: Add new contacts to the phonebook.
-- **Get_contacs**: Get a list of contacts with pagination and search functionality.
-- **Search**: Search for specific contact with first_name/last_name
-- **Update**: Edit existing contacts by phone_number(unique).
-- **Delete**: Remove contacts from the phonebook by phone_number(unique).
+- Docker and Docker Compose
+
+## Installation
+**Clone the repository**:
+
+bash
+Copy code
+git clone https://github.com/yourusername/phonebook-api.git
+cd phonebook-api
+Set up the virtual environment and install dependencies:
+
+bash
+Copy code
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+pip install -r requirements.txt
+Run the application:
+
+bash
+Copy code
+flask --app run_app run --host=0.0.0.0
 
 ## Technologies
 
